@@ -63,7 +63,7 @@ const moduleData = {
 type ModuleKey = keyof typeof moduleData;
 
 const howItWorks = [
-  { step: "01", title: "Sign up with your student email", desc: "No ID uploads, no waiting for approval — just your university email address." },
+  { step: "01", title: "Sign up with your email", desc: "No ID uploads, no waiting for approval — just your email address." },
   { step: "02", title: "Browse or list in seconds", desc: "Find what you need on campus, or list your own items, notes, or tutoring in a couple of taps." },
   { step: "03", title: "Chat and meet up on campus", desc: "Message directly inside the app and arrange a handover, session, or event RSVP." },
 ];

@@ -52,7 +52,7 @@ export default function Hero() {
                   />
                 ))}
               </div>
-              143+ students already on the waitlist
+              many students already on the waitlist
             </div>
           </div>
 
