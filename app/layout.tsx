@@ -1,10 +1,4 @@
 import './globals.css';
-import type { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: 'UniVerse - Campus Marketplace',
-  description: 'Buy, sell, learn and connect on campus.',
-};
 
 export default function RootLayout({
   children,
@@ -13,7 +7,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-[#0F0B1E]">{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
